@@ -14,6 +14,8 @@ echo "build ninja"
 cd C:\
 git clone https://github.com/ninja-build/ninja.git
 cd .\ninja\
+git fetch --tags
+git checkout v1.10.1
 mkdir build-cmake
 cd build-cmake
 cmake ..
@@ -23,6 +25,7 @@ echo "build laf"
 cd C:\
 git clone https://github.com/aseprite/laf.git
 cd laf
+git checkout 9c3092901416ed0aef85b49f33ad514c7988cfa4
 git submodule update --init --recursive
 mkdir build
 cd build
@@ -33,7 +36,9 @@ echo "build aseprite"
 cd C:\
 git clone --recursive https://github.com/aseprite/aseprite.git
 cd aseprite
+git fetch --tags
 git pull
+git checkout v1.2.25
 git submodule update --init --recursive
 mkdir build
 cd build

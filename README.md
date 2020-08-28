@@ -15,8 +15,7 @@ Consider buying Aseprite if you want to support the devs: https://www.aseprite.o
 1. download this repo: `git clone git@github.com:eddex/aseprite-windows-docker-build.git`
 2. `cd aseprite-windows-docker-build`
 3. build the docker image: `docker build -t eddex/aseprite .`
-4. create a container from the image: `docker -d run eddex/aseprite cmd`
-5. get the container id using: `docker ps -a`
+4. create a container from the image: `docker run -d eddex/aseprite cmd` (this prints the container id)
 6. copy the Aseprite binaries: `docker cp <CONTAINER_ID>:aseprite\build\bin\ .\bin\`
 
 Now you should see a folder called `bin/` and in it the Aseprite binaries!
