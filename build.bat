@@ -4,7 +4,7 @@ mkdir deps
 cd deps
 mkdir skia
 cd skia
-powershell -command "wget -UseBasicParsing -OutFile skia.zip https://github.com/aseprite/skia/releases/download/m96-2f1f21b8a9/Skia-Windows-Release-x64.zip"
+powershell -command "wget -UseBasicParsing -OutFile skia.zip https://github.com/aseprite/skia/releases/download/m102-861e4743af/Skia-Windows-Release-x64.zip"
 powershell -command "Expand-Archive -Path .\skia.zip -DestinationPath ."
 
 echo "switch to VS dev cmd"
