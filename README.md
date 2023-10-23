@@ -14,4 +14,11 @@ Now you should see a folder called `bin/` and in it the Aseprite binaries!
 
 - OS: Windows 10 (Version 2004 or newer)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-  - Use Windows containers: Right click on the tray icon -> Switch to Windows containers...
+  - **Use Windows containers**: Right click on the Docker tray icon -> Switch to Windows containers...
+
+## Remarks
+
+- The docker image is based on [abrarov/msvc-2022:2.15.0](https://hub.docker.com/r/abrarov/msvc-2022) which includes...
+  - Visual Studio Community 2022
+  - cmake v3.24.1
+  - Ninja v1.11.0
