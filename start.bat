@@ -7,5 +7,6 @@ docker run -d --name aseprite eddex/aseprite cmd
 docker stop aseprite
 docker cp aseprite:aseprite\build\bin .
 docker rm aseprite
+docker rmi eddex/aseprite
 
 echo Done
