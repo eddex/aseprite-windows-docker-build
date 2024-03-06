@@ -13,8 +13,13 @@ Now you should see a folder called `bin/` and in it the Aseprite binaries!
 ### Prerequisites
 
 - OS: Windows 10 (Version 2004 or newer)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-  - **Use Windows containers**: Right click on the Docker tray icon -> Switch to Windows containers...
+- Docker (2 options):
+  - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+    - **Use Windows containers**: Right click on the Docker tray icon -> Switch to Windows containers...
+   or
+  - [Docker CLI via scoop.sh](https://scoop.sh/#/apps?q=docker)
+    - **daemon switches**: `dockerd.exe --dns 1.1.1.1`
+    - change the IP above to your preffered dns
 
 ## Remarks
 
