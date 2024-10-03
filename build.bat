@@ -16,7 +16,7 @@ git clone --recursive https://github.com/aseprite/aseprite.git
 cd aseprite
 git fetch --tags
 git pull
-git checkout v1.3.7
+git checkout v1.3.9
 git submodule update --init --recursive
 mkdir build
 cd build
